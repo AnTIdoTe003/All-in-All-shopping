@@ -9,7 +9,7 @@ choice=int(input())
 if(choice==1):
     print("What do you want to search for ")
     search_amazon=input()
-    PATH = "C:\Program Files (x86)\chromedriver.exe"
+    PATH = "ENTER THE PATH WHERE YOU HAVE DOWNLOADED THE RESPECTIVE CHROME DRIVER"
     driver = webdriver.Chrome(PATH)
     driver.get("https://amazon.in")
     search =driver.find_element_by_id("twotabsearchtextbox")
